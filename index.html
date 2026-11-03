@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- DÉFAUT SEO 1 : title trop long (plus de 60 caractères) -->
+  <title>Bienvenue sur le site internet officiel de la boutique Terre &amp; Bocal, épicerie vrac et produits locaux</title>
+  <!-- DÉFAUT SEO 2 : aucune meta description -->
+
+  <!-- ===== Livrable 3 : colle ici la balise Google Analytics 4 (gtag.js) ===== -->
+
+  <style>
+    :root{
+      --vert:#2f5d3a; --vert-clair:#e6efe3; --creme:#fbf7ef; --terre:#b5652b;
+      --texte:#2b2b2b; --gris:#6b6b6b; --rayon:14px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Georgia,"Times New Roman",serif;background:var(--creme);color:var(--texte);line-height:1.6}
+    a{color:inherit}
+    header{background:var(--vert);color:#fff}
+    .barre{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:16px 20px;flex-wrap:wrap;gap:12px}
+    .logo{font-size:1.5rem;font-weight:bold;letter-spacing:.5px}
+    .logo span{color:#f3c98b}
+    nav a{margin-left:18px;text-decoration:none;font-family:Arial,sans-serif;font-size:.95rem}
+    nav a:hover{text-decoration:underline}
+    .hero{max-width:1100px;margin:auto;padding:60px 20px;display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center}
+    .hero h1{font-size:2.4rem;line-height:1.2;color:var(--vert)}
+    .hero p{margin:18px 0 26px;color:var(--gris);font-size:1.1rem}
+    .bouton{display:inline-block;background:var(--terre);color:#fff;padding:12px 26px;border-radius:40px;text-decoration:none;font-family:Arial,sans-serif;font-weight:bold}
+    .bouton:hover{background:#984f1d}
+    .hero img{width:100%;border-radius:var(--rayon)}
+    section{max-width:1100px;margin:auto;padding:50px 20px}
+    .titre-section{text-align:center;color:var(--vert);font-size:1.8rem;margin-bottom:30px}
+    .grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px}
+    .carte{background:#fff;border-radius:var(--rayon);overflow:hidden;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+    .carte img{width:100%;display:block}
+    .carte div{padding:16px}
+    .carte h3{color:var(--vert);font-size:1.15rem}
+    .prix{color:var(--terre);font-weight:bold;font-family:Arial,sans-serif;margin-top:6px}
+    .carte .bouton{margin-top:12px;padding:8px 18px;font-size:.9rem}
+    .valeurs{background:var(--vert-clair);max-width:none}
+    .valeurs .grille{max-width:1100px;margin:auto}
+    .valeur{text-align:center;padding:10px}
+    .valeur h4{color:var(--vert);font-size:1.1rem;margin:10px 0 6px}
+    .infos{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+    .infos div{background:#fff;padding:24px;border-radius:var(--rayon)}
+    .infos h3{color:var(--vert);margin-bottom:10px}
+    form{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+    input{flex:1;min-width:180px;padding:10px 14px;border:1px solid #ccc;border-radius:40px;font-size:1rem}
+    form .bouton{border:none;cursor:pointer;font-size:1rem}
+    footer{background:#1f3d27;color:#cfd8cf;text-align:center;padding:24px;font-family:Arial,sans-serif;font-size:.9rem}
+    @media (max-width:760px){
+      .hero{grid-template-columns:1fr;padding:36px 20px}
+      .hero h1{font-size:1.9rem}
+      .infos{grid-template-columns:1fr}
+      nav a{margin:0 14px 0 0}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="barre">
+    <div class="logo">Terre <span>&amp;</span> Bocal</div>
+    <nav>
+      <a href="#produits">Produits</a>
+      <a href="#valeurs">Nos valeurs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div>
+    <!-- DÉFAUT SEO 3 : h1 vague, sans mot-clé utile (ville, épicerie vrac…) -->
+    <h1>Bienvenue chez nous !</h1>
+    <p>Épicerie vrac et produits locaux à Saint-Amand. Fruits secs, céréales, huiles, savons et douceurs sélectionnés chez des producteurs à moins de 80 km.</p>
+    <a class="bouton" href="#produits">Découvrir la boutique</a>
+  </div>
+  <!-- DÉFAUT SEO 4 : image sans attribut alt -->
+  <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 340'%3E%3Crect width='500' height='340' fill='%23e6efe3'/%3E%3Crect x='40' y='200' width='420' height='20' fill='%238a5a33'/%3E%3Cg%3E%3Crect x='70' y='110' width='80' height='90' rx='10' fill='%23f7f2e6' stroke='%232f5d3a' stroke-width='4'/%3E%3Crect x='70' y='95' width='80' height='18' rx='4' fill='%23b5652b'/%3E%3Ccircle cx='95' cy='170' r='8' fill='%23d9a441'/%3E%3Ccircle cx='120' cy='160' r='8' fill='%23d9a441'/%3E%3Ccircle cx='110' cy='182' r='8' fill='%23d9a441'/%3E%3C/g%3E%3Cg%3E%3Crect x='210' y='90' width='80' height='110' rx='10' fill='%23f7f2e6' stroke='%232f5d3a' stroke-width='4'/%3E%3Crect x='210' y='75' width='80' height='18' rx='4' fill='%23b5652b'/%3E%3Crect x='222' y='130' width='56' height='60' fill='%23c98a4b'/%3E%3C/g%3E%3Cg%3E%3Crect x='350' y='120' width='80' height='80' rx='10' fill='%23f7f2e6' stroke='%232f5d3a' stroke-width='4'/%3E%3Crect x='350' y='105' width='80' height='18' rx='4' fill='%23b5652b'/%3E%3Crect x='362' y='150' width='56' height='40' fill='%237a9b4a'/%3E%3C/g%3E%3Cpath d='M40 260 Q250 230 460 260 L460 340 L40 340 Z' fill='%232f5d3a' opacity='.15'/%3E%3C/svg%3E">
+</div>
+
+<section id="produits">
+  <!-- DÉFAUT SEO 5 : saut de niveau, h4 utilisé à la place d'un h2 -->
+  <h4 class="titre-section">Nos produits phares</h4>
+  <div class="grille">
+    <div class="carte">
+      <img alt="Bocal de noix de cajou bio en vrac" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'%3E%3Crect width='300' height='180' fill='%23f3e7d3'/%3E%3Crect x='110' y='40' width='80' height='110' rx='12' fill='%23fff' stroke='%232f5d3a' stroke-width='4'/%3E%3Crect x='110' y='28' width='80' height='16' rx='4' fill='%23b5652b'/%3E%3Cpath d='M130 110 q10 -20 20 0 M150 125 q10 -20 20 0 M125 135 q10 -20 20 0' stroke='%23d9a441' stroke-width='8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+      <div>
+        <h3>Noix de cajou bio</h3>
+        <p>Grillées à sec, sans sel ajouté.</p>
+        <p class="prix">3,90 € / 100 g</p>
+        <a class="bouton" href="#contact">Commander</a>
+      </div>
+    </div>
+    <div class="carte">
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'%3E%3Crect width='300' height='180' fill='%23e6efe3'/%3E%3Cpath d='M135 40 h30 v20 q20 15 20 45 v40 q0 10 -10 10 h-50 q-10 0 -10 -10 v-40 q0 -30 20 -45 Z' fill='%23d4b13b' stroke='%232f5d3a' stroke-width='4'/%3E%3Crect x='132' y='30' width='36' height='12' fill='%23b5652b'/%3E%3C/svg%3E">
+      <div>
+        <h3>Huile d'olive locale</h3>
+        <p>Première pression à froid, moulin de la vallée.</p>
+        <p class="prix">12,50 € / 50 cl</p>
+        <a class="bouton" href="#contact">Commander</a>
+      </div>
+    </div>
+    <div class="carte">
+      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'%3E%3Crect width='300' height='180' fill='%23efe6f3'/%3E%3Crect x='95' y='70' width='110' height='60' rx='14' fill='%23c9a3d4' stroke='%232f5d3a' stroke-width='4'/%3E%3Cpath d='M120 95 q30 -15 60 0' stroke='%23fff' stroke-width='4' fill='none'/%3E%3C/svg%3E">
+      <div>
+        <h3>Savon à la lavande</h3>
+        <p>Saponifié à froid, fabriqué à 20 km.</p>
+        <p class="prix">5,50 € l'unité</p>
+        <a class="bouton" href="#contact">Commander</a>
+      </div>
+    </div>
+    <div class="carte">
+      <img alt="Sachet de granola maison au miel" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 180'%3E%3Crect width='300' height='180' fill='%23f7efdf'/%3E%3Cpath d='M110 40 h80 l10 110 h-100 Z' fill='%23d8b98a' stroke='%232f5d3a' stroke-width='4'/%3E%3Ccircle cx='140' cy='100' r='6' fill='%238a5a33'/%3E%3Ccircle cx='160' cy='115' r='6' fill='%238a5a33'/%3E%3Ccircle cx='150' cy='130' r='6' fill='%238a5a33'/%3E%3Ccircle cx='165' cy='92' r='6' fill='%238a5a33'/%3E%3C/svg%3E">
+      <div>
+        <h3>Granola maison</h3>
+        <p>Flocons d'avoine, miel du rucher voisin.</p>
+        <p class="prix">4,20 € / 250 g</p>
+        <a class="bouton" href="#contact">Commander</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="valeurs" class="valeurs">
+  <h2 class="titre-section">Nos valeurs</h2>
+  <div class="grille">
+    <div class="valeur"><div style="font-size:2rem">♻</div><h4>Zéro déchet</h4><p>Venez avec vos contenants, on pèse tout.</p></div>
+    <div class="valeur"><div style="font-size:2rem">⌂</div><h4>Local</h4><p>80 % de nos produits viennent de moins de 80 km.</p></div>
+    <div class="valeur"><div style="font-size:2rem">✿</div><h4>Bio</h4><p>Des producteurs engagés et certifiés.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="titre-section">Venir nous voir</h2>
+  <div class="infos">
+    <div>
+      <h3>Adresse et horaires</h3>
+      <p>12 rue des Halles, 18200 Saint-Amand<br>
+      Du mardi au samedi : 9 h 30 – 19 h<br>
+      Tél. : 02 00 00 00 00</p>
+    </div>
+    <div>
+      <h3>Newsletter</h3>
+      <p>Recevez nos arrivages et -10 % sur votre première commande.</p>
+      <!-- Ce bouton peut servir d'objectif de conversion dans GA4 -->
+      <form onsubmit="event.preventDefault();this.innerHTML='<p>Merci, inscription enregistrée !</p>';">
+        <input type="email" placeholder="Votre e-mail" required>
+        <button class="bouton" type="submit">Je m'inscris</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Terre &amp; Bocal — Épicerie vrac et locale (boutique fictive, exercice pédagogique)
+</footer>
+
+</body>
+</html>
